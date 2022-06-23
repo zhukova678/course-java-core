@@ -57,13 +57,12 @@ class Task01 {
         // Код, решающий задачу пишем ниже, при этом используя параметры метода
         int minMark = marks[0];
         for (int mark : marks) {
-            if ( minMark > mark){
+            if (minMark > mark) {
                 minMark = mark;
             }
         }
         return minMark;
     }
-
     /**
      * Возвращает максимальную отметку.
      *
@@ -74,13 +73,11 @@ class Task01 {
         //TODO
         // Код, решающий задачу пишем ниже, при этом используя параметры метода
         int maxMark = marks[0];
-        for ( int mark: marks){
-            if (maxMark < mark){
+        for (int mark : marks) {
+            if (maxMark < mark) {
                 maxMark = mark;
             }
         }
         return maxMark;
     }
-
-
 }
