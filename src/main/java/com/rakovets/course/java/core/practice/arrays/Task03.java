@@ -11,8 +11,7 @@ import java.util.Arrays;
  *
  * @author Dmitry Rakovets
  */
-class
-Task03 {
+class Task03 {
     public static void main(String[] args) {
         //FIXME
         // Ниже приведены значения присваиваемые переменным. Их можно изменять для проверки различных вариантов входных
@@ -72,7 +71,6 @@ Task03 {
         }
         return minMarks;
     }
-
 
     /**
      * Возвращает максимальную отметку по предметам за весь период обучения.
